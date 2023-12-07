@@ -1,0 +1,33 @@
+.container {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.topics_list {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 20px;
+}
+
+.first_text {
+  color: #495057;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.topics_body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.topics_body > p {
+  color: #495057;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 208.333% */
+}

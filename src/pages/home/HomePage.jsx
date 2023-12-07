@@ -1,5 +1,12 @@
+import style from "../home/HomePage.module.css";
+import PopularTopics from "../../components/popularTopics/PopularTopics";
+
 const HomePage = () => {
-  return <h2>HOME PAGE</h2>;
+  return (
+    <>
+      <PopularTopics />
+    </>
+  );
 };
 
 export default HomePage;

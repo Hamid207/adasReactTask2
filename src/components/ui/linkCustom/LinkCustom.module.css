@@ -16,3 +16,20 @@
   text-decoration-thickness: 4px;
   text-underline-offset: 10px;
 }
+
+.popularTocics {
+  color: #495057;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+.popularTocics:hover {
+  color: #d4a373;
+}
+
+.popularTocics:active {
+  color: red;
+}

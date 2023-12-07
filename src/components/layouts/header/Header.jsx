@@ -1,4 +1,4 @@
-import LinkCustom from "../../ui/LinkCustom";
+import LinkCustom from "../../ui/linkCustom/LinkCustom";
 import style from "../header/Header.module.css";
 const Header = () => {
   return (
@@ -10,16 +10,24 @@ const Header = () => {
             <div>
               <ul className={style.headerUl}>
                 <li>
-                  <LinkCustom to="/" name="Home" />
+                  <LinkCustom to="/" name="Home" style={"linkCustom"} />
                 </li>
                 <li>
-                  <LinkCustom to="/about" name="About" />
+                  <LinkCustom to="/about" name="About" style={"linkCustom"} />
                 </li>
                 <li>
-                  <LinkCustom to="/articles" name="Articles" />
+                  <LinkCustom
+                    to="/articles"
+                    name="Articles"
+                    style={"linkCustom"}
+                  />
                 </li>
                 <li>
-                  <LinkCustom to="/contactUs" name="Contact Us" />
+                  <LinkCustom
+                    to="/contactUs"
+                    name="Contact Us"
+                    style={"linkCustom"}
+                  />
                 </li>
               </ul>
             </div>
