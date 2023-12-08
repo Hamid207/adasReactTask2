@@ -1,11 +1,11 @@
 .grid_body {
-  height: 400px;
+  height: 450px;
   /* background-color: yellow; */
 }
 
 .img {
   height: 280px;
-  background-image: url("/public/img1.png");
+  /* background-image: url("/public/img1.png"); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,4 +32,38 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.creatDate {
+  color: #6c757d;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 15px;
+}
+
+.gridHeaderText {
+  width: 273px;
+  margin-top: 15px;
+}
+
+.gridHeaderText > p {
+  color: #495057;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.gridText {
+  margin-top: 15px;
+}
+
+.gridText > p {
+  color: #6c757d;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }

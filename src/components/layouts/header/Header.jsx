@@ -42,7 +42,7 @@ const Header = () => {
             </div>
             <div className={style.secondText_body}>
               <div>
-                <p>08.08.2023</p>
+                <p>09.12.2023</p>
               </div>
               <div className={style.line}></div>
               <div className={style.big_text}>
