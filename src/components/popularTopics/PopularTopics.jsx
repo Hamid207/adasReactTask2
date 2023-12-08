@@ -45,7 +45,16 @@ const PopularTopics = () => {
         </ul>
         <p>View All</p>
       </div>
-      <Grid />
+      <div className={style.grid_body}>
+        <Grid />
+        <Grid />
+        <Grid />
+        <Grid />
+        <Grid />
+        <Grid />
+        <Grid />
+        <Grid />
+      </div>
     </div>
   );
 };
