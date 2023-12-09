@@ -1,6 +1,6 @@
 import LinkCustom from "../../ui/linkCustom/LinkCustom";
 import style from "../header/Header.module.css";
-const Header = () => {
+const Header = (props) => {
   return (
     <header>
       <nav>

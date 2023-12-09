@@ -1,10 +1,10 @@
 import style from "../editorsPick/EditorsPick.module.css";
 import EditorsGrid from "./editorsGrid/EditorsGrid";
 
-const EditorsPick = () => {
+const EditorsPick = (props) => {
   return (
     <div className={style.body}>
-      <h2>Editor’s Pick</h2>
+      <h2>{props.name}</h2>
       <div className={style.grid_body}>
         <EditorsGrid
           img="/public/sec3img1.png"

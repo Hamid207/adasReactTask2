@@ -1,11 +1,16 @@
 import PopularTopics from "../../components/popularTopics/PopularTopics";
 import EditorsPick from "../../components/editorsPick/EditorsPick";
+import AboutText from "../../components/abaoutText/AboutText";
 
 const About = () => {
   return (
     <>
       <section>
-        <EditorsPick />
+        <AboutText />
+      </section>
+
+      <section>
+        <EditorsPick name="Related Posts" />
       </section>
     </>
   );

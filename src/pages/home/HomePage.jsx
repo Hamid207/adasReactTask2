@@ -15,7 +15,7 @@ const HomePage = () => {
       </section>
 
       <section>
-        <EditorsPick />
+        <EditorsPick name="Editor’s Pick" />
       </section>
     </>
   );
