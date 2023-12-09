@@ -1,6 +1,7 @@
 import style from "../home/HomePage.module.css";
 import PopularTopics from "../../components/popularTopics/PopularTopics";
 import BigImg from "../../components/section2/BigImg";
+import EditorsPick from "../../components/editorsPick/EditorsPick";
 
 const HomePage = () => {
   return (
@@ -8,8 +9,13 @@ const HomePage = () => {
       <section>
         <PopularTopics />
       </section>
+
       <section>
         <BigImg />
+      </section>
+
+      <section>
+        <EditorsPick />
       </section>
     </>
   );
