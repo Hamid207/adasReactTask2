@@ -1,6 +1,5 @@
 .body {
-  height: 350px;
-  /* width: 420px; */
+  min-height: 400px;
   background-image: url("/public/sec3img1.png");
   background-position: center;
   background-repeat: no-repeat;
