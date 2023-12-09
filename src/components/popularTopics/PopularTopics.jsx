@@ -83,7 +83,7 @@ const PopularTopics = () => {
           photography skills"
           gridText="Progressively incentivize cooperative systems through technically
           sound functionalities. Credibly productivate seamless data with
-          flexible schemas."
+          flexible schemas. "
         />
         <Grid
           topic="ADVENTURE"
